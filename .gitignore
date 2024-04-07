@@ -29,7 +29,8 @@
 # .flutter-plugins-dependencies
 # .pub-cache/
 # .pub/
-# /build/
+/build/windows/x64
+
 
 # # Symbolication related
 # app.*.symbols
