@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/CMakeFiles/INSTALL.dir
-C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/CMakeFiles/ALL_BUILD.dir
-C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/CMakeFiles/ZERO_CHECK.dir
-C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_plugin.dir
-C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_app.dir
-C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/flutter/CMakeFiles/flutter_assemble.dir
-C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/flutter/CMakeFiles/INSTALL.dir
-C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/proyecto_moviles.dir
-C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/INSTALL.dir
-C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/ALL_BUILD.dir
-=======
 C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64/CMakeFiles/INSTALL.dir
 C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64/CMakeFiles/ALL_BUILD.dir
 C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64/CMakeFiles/ZERO_CHECK.dir
@@ -20,4 +8,3 @@ C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64/flutter/CMakeF
 C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/proyecto_moviles.dir
 C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/INSTALL.dir
 C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/ALL_BUILD.dir
->>>>>>> 1300649472ef4ce524e4637047aa84346a8a621a

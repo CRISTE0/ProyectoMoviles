@@ -2,21 +2,6 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-<<<<<<< HEAD
-      <FullPath>C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\x64\Debug\ZERO_CHECK</FullPath>
-    </ProjectOutput>
-    <ProjectOutput>
-      <FullPath>C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\flutter\x64\Debug\flutter_assemble</FullPath>
-    </ProjectOutput>
-    <ProjectOutput>
-      <FullPath>C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\runner\Debug\proyecto_moviles.exe</FullPath>
-    </ProjectOutput>
-    <ProjectOutput>
-      <FullPath>C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\x64\Debug\ALL_BUILD</FullPath>
-    </ProjectOutput>
-    <ProjectOutput>
-      <FullPath>C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\x64\Debug\INSTALL</FullPath>
-=======
       <FullPath>C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
@@ -30,7 +15,6 @@
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\x64\Debug\INSTALL</FullPath>
->>>>>>> 1300649472ef4ce524e4637047aa84346a8a621a
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
