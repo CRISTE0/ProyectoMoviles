@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Cristian/Desktop/proyecto_moviles/windows/runner
+# Install script for directory: C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/runner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
