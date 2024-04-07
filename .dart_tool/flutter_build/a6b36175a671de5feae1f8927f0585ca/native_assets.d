@@ -1,0 +1,1 @@
+ C:\\Users\\Cristian\\Desktop\\proyecto_moviles\\.dart_tool\\flutter_build\\a6b36175a671de5feae1f8927f0585ca\\native_assets.yaml: 

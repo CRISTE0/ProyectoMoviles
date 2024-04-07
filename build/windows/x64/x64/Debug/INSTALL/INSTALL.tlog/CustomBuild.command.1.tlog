@@ -1,0 +1,10 @@
+^C:\USERS\CRISTIAN\DESKTOP\PROYECTO_MOVILES\BUILD\WINDOWS\X64\CMAKEFILES\9DC0471FECE0374D3C9C00B66B832338\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
