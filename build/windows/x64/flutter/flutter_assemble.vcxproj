@@ -18,7 +18,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
+<<<<<<< HEAD
     <ProjectGuid>{7F151ED0-E259-3417-ABD2-60E4C1F01960}</ProjectGuid>
+=======
+    <ProjectGuid>{4C8A6AB4-05A4-32E7-99F1-2BD279EADB81}</ProjectGuid>
+>>>>>>> 1300649472ef4ce524e4637047aa84346a8a621a
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -85,10 +89,17 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <CustomBuild Include="C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\CMakeFiles\cc4eb2e805101141abac00786e21de3f\flutter_windows.dll.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_windows.dll, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_export.h, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_windows.h, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_messenger.h, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\Users\ASUS\Desktop\ProyectoMoviles FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral PROJECT_DIR=C:\Users\ASUS\Desktop\ProyectoMoviles FLUTTER_TARGET=C:\Users\ASUS\Desktop\ProyectoMoviles\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9lNzZjOTU2NDk4ODQxZTFhYjQ1ODU3N2QzODkyMDAzZTU1M2U0ZjNjLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\ASUS\Desktop\ProyectoMoviles\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+=======
+    <CustomBuild Include="C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\CMakeFiles\bdb609ea213a552f7015b27eb853afb5\flutter_windows.dll.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_windows.dll, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_export.h, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_windows.h, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_messenger.h, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter "PROJECT_DIR=C:\Users\Yesica Herrera\Desktop\ProyectoMoviles" FLUTTER_ROOT=C:\src\flutter "FLUTTER_EPHEMERAL_DIR=C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral" "PROJECT_DIR=C:\Users\Yesica Herrera\Desktop\ProyectoMoviles" "FLUTTER_TARGET=C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9mNDBlOTc2YmVkZmY1N2U2OWUxYjNkODlhN2MyYTNjNjE3YTAzZGFkLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\.dart_tool\package_config.json" C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+>>>>>>> 1300649472ef4ce524e4637047aa84346a8a621a
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -97,12 +108,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+<<<<<<< HEAD
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_export.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\flutter\_phony_</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Generating C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_windows.dll, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_export.h, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_windows.h, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_messenger.h, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\Users\ASUS\Desktop\ProyectoMoviles FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral PROJECT_DIR=C:\Users\ASUS\Desktop\ProyectoMoviles FLUTTER_TARGET=C:\Users\ASUS\Desktop\ProyectoMoviles\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9lNzZjOTU2NDk4ODQxZTFhYjQ1ODU3N2QzODkyMDAzZTU1M2U0ZjNjLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\ASUS\Desktop\ProyectoMoviles\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Profile
+=======
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_export.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\flutter\_phony_</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Generating C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_windows.dll, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_export.h, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_windows.h, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_messenger.h, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter "PROJECT_DIR=C:\Users\Yesica Herrera\Desktop\ProyectoMoviles" FLUTTER_ROOT=C:\src\flutter "FLUTTER_EPHEMERAL_DIR=C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral" "PROJECT_DIR=C:\Users\Yesica Herrera\Desktop\ProyectoMoviles" "FLUTTER_TARGET=C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9mNDBlOTc2YmVkZmY1N2U2OWUxYjNkODlhN2MyYTNjNjE3YTAzZGFkLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\.dart_tool\package_config.json" C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Profile
+>>>>>>> 1300649472ef4ce524e4637047aa84346a8a621a
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -111,12 +131,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
+<<<<<<< HEAD
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_export.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\flutter\_phony_</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_windows.dll, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_export.h, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_windows.h, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_messenger.h, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\Users\ASUS\Desktop\ProyectoMoviles FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral PROJECT_DIR=C:\Users\ASUS\Desktop\ProyectoMoviles FLUTTER_TARGET=C:\Users\ASUS\Desktop\ProyectoMoviles\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9lNzZjOTU2NDk4ODQxZTFhYjQ1ODU3N2QzODkyMDAzZTU1M2U0ZjNjLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\ASUS\Desktop\ProyectoMoviles\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Release
+=======
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_export.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\flutter\_phony_</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_windows.dll, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_export.h, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_windows.h, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_messenger.h, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter "PROJECT_DIR=C:\Users\Yesica Herrera\Desktop\ProyectoMoviles" FLUTTER_ROOT=C:\src\flutter "FLUTTER_EPHEMERAL_DIR=C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral" "PROJECT_DIR=C:\Users\Yesica Herrera\Desktop\ProyectoMoviles" "FLUTTER_TARGET=C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9mNDBlOTc2YmVkZmY1N2U2OWUxYjNkODlhN2MyYTNjNjE3YTAzZGFkLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\.dart_tool\package_config.json" C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Release
+>>>>>>> 1300649472ef4ce524e4637047aa84346a8a621a
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -125,13 +154,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+<<<<<<< HEAD
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_export.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\flutter\_phony_</Outputs>
+=======
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_export.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\flutter\_phony_</Outputs>
+>>>>>>> 1300649472ef4ce524e4637047aa84346a8a621a
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <CustomBuild Include="C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\CMakeFiles\06780be3d3ce733465ac99555837f24d\flutter_assemble.rule">
+=======
+    <CustomBuild Include="C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\CMakeFiles\d75467d63386098d442eab80deb3c1b1\flutter_assemble.rule">
+>>>>>>> 1300649472ef4ce524e4637047aa84346a8a621a
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 :cmEnd
@@ -140,8 +177,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
+<<<<<<< HEAD
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_export.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\flutter\CMakeFiles\flutter_assemble</Outputs>
+=======
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_export.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\flutter\CMakeFiles\flutter_assemble</Outputs>
+>>>>>>> 1300649472ef4ce524e4637047aa84346a8a621a
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'"></Message>
@@ -152,8 +194,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
+<<<<<<< HEAD
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_export.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\flutter\CMakeFiles\flutter_assemble</Outputs>
+=======
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_export.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\flutter\CMakeFiles\flutter_assemble</Outputs>
+>>>>>>> 1300649472ef4ce524e4637047aa84346a8a621a
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
@@ -164,18 +211,31 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
+<<<<<<< HEAD
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_export.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\flutter\CMakeFiles\flutter_assemble</Outputs>
+=======
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_export.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_windows.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\flutter\CMakeFiles\flutter_assemble</Outputs>
+>>>>>>> 1300649472ef4ce524e4637047aa84346a8a621a
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <CustomBuild Include="C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Desktop/ProyectoMoviles/windows -BC:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64 --check-stamp-file C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/flutter/CMakeFiles/generate.stamp
+=======
+    <CustomBuild Include="C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows" "-BC:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64" --check-stamp-file "C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+>>>>>>> 1300649472ef4ce524e4637047aa84346a8a621a
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -183,12 +243,21 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
+<<<<<<< HEAD
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Desktop/ProyectoMoviles/windows -BC:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64 --check-stamp-file C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/flutter/CMakeFiles/generate.stamp
+=======
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows" "-BC:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64" --check-stamp-file "C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+>>>>>>> 1300649472ef4ce524e4637047aa84346a8a621a
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -196,12 +265,21 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
+<<<<<<< HEAD
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Desktop/ProyectoMoviles/windows -BC:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64 --check-stamp-file C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/flutter/CMakeFiles/generate.stamp
+=======
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/flutter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows" "-BC:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64" --check-stamp-file "C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+>>>>>>> 1300649472ef4ce524e4637047aa84346a8a621a
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -209,18 +287,32 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
+<<<<<<< HEAD
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
+=======
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
+>>>>>>> 1300649472ef4ce524e4637047aa84346a8a621a
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\flutter\CMakeFiles\flutter_assemble">
     </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\ZERO_CHECK.vcxproj">
       <Project>{8590B750-9E3E-30A6-9BFA-B1EF089D70B5}</Project>
+=======
+    <None Include="C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\flutter\CMakeFiles\flutter_assemble">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\ZERO_CHECK.vcxproj">
+      <Project>{47BFE9D2-3E05-367E-B620-7EDD8E131581}</Project>
+>>>>>>> 1300649472ef4ce524e4637047aa84346a8a621a
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

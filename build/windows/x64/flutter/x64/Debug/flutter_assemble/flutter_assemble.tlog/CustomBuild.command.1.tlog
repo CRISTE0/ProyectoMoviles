@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 ^C:\USERS\ASUS\DESKTOP\PROYECTOMOVILES\BUILD\WINDOWS\X64\CMAKEFILES\CC4EB2E805101141ABAC00786E21DE3F\FLUTTER_WINDOWS.DLL.RULE
 setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\Users\ASUS\Desktop\ProyectoMoviles FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral PROJECT_DIR=C:\Users\ASUS\Desktop\ProyectoMoviles FLUTTER_TARGET=C:\Users\ASUS\Desktop\ProyectoMoviles\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9lNzZjOTU2NDk4ODQxZTFhYjQ1ODU3N2QzODkyMDAzZTU1M2U0ZjNjLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\ASUS\Desktop\ProyectoMoviles\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+=======
+^C:\USERS\YESICA HERRERA\DESKTOP\PROYECTOMOVILES\BUILD\WINDOWS\X64\CMAKEFILES\BDB609EA213A552F7015B27EB853AFB5\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter "PROJECT_DIR=C:\Users\Yesica Herrera\Desktop\ProyectoMoviles" FLUTTER_ROOT=C:\src\flutter "FLUTTER_EPHEMERAL_DIR=C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\ephemeral" "PROJECT_DIR=C:\Users\Yesica Herrera\Desktop\ProyectoMoviles" "FLUTTER_TARGET=C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9mNDBlOTc2YmVkZmY1N2U2OWUxYjNkODlhN2MyYTNjNjE3YTAzZGFkLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\.dart_tool\package_config.json" C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+>>>>>>> 1300649472ef4ce524e4637047aa84346a8a621a
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -8,7 +14,11 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
+<<<<<<< HEAD
 ^C:\USERS\ASUS\DESKTOP\PROYECTOMOVILES\BUILD\WINDOWS\X64\CMAKEFILES\06780BE3D3CE733465AC99555837F24D\FLUTTER_ASSEMBLE.RULE
+=======
+^C:\USERS\YESICA HERRERA\DESKTOP\PROYECTOMOVILES\BUILD\WINDOWS\X64\CMAKEFILES\D75467D63386098D442EAB80DEB3C1B1\FLUTTER_ASSEMBLE.RULE
+>>>>>>> 1300649472ef4ce524e4637047aa84346a8a621a
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -16,9 +26,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
+<<<<<<< HEAD
 ^C:\USERS\ASUS\DESKTOP\PROYECTOMOVILES\WINDOWS\FLUTTER\CMAKELISTS.TXT
 setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Desktop/ProyectoMoviles/windows -BC:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64 --check-stamp-file C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/flutter/CMakeFiles/generate.stamp
+=======
+^C:\USERS\YESICA HERRERA\DESKTOP\PROYECTOMOVILES\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows" "-BC:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64" --check-stamp-file "C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+>>>>>>> 1300649472ef4ce524e4637047aa84346a8a621a
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
