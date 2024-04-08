@@ -1,13 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+<<<<<<< HEAD
     <CustomBuild Include="C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\CMakeFiles\06780be3d3ce733465ac99555837f24d\INSTALL_force.rule">
+=======
+    <CustomBuild Include="C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\CMakeFiles\d75467d63386098d442eab80deb3c1b1\INSTALL_force.rule">
+>>>>>>> 166c78090e16eed5eaae58f7356da99b431fc525
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
+<<<<<<< HEAD
       <UniqueIdentifier>{C5910620-F96A-367B-8AC7-505AFAE299C2}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{C8FE5188-DA24-3AFF-9D97-E330C3B9815D}</UniqueIdentifier>
+>>>>>>> 166c78090e16eed5eaae58f7356da99b431fc525
     </Filter>
   </ItemGroup>
 </Project>

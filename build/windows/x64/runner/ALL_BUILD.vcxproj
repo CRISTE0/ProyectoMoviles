@@ -21,7 +21,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
+<<<<<<< HEAD
     <ProjectGuid>{942F2CC5-D906-310E-8267-EB01E3895FE6}</ProjectGuid>
+=======
+    <ProjectGuid>{BE790702-F38F-3179-873F-DC2115FD6DBD}</ProjectGuid>
+>>>>>>> 166c78090e16eed5eaae58f7356da99b431fc525
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -88,11 +92,19 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <CustomBuild Include="C:\Users\ASUS\Desktop\ProyectoMoviles\windows\runner\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ASUS/Desktop/ProyectoMoviles/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Desktop/ProyectoMoviles/windows -BC:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64 --check-stamp-file C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/generate.stamp
+=======
+    <CustomBuild Include="C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\runner\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/runner/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows" "-BC:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64" --check-stamp-file "C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/generate.stamp"
+>>>>>>> 166c78090e16eed5eaae58f7356da99b431fc525
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -101,11 +113,19 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+<<<<<<< HEAD
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/ASUS/Desktop/ProyectoMoviles/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Desktop/ProyectoMoviles/windows -BC:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64 --check-stamp-file C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/generate.stamp
+=======
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/runner/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows" "-BC:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64" --check-stamp-file "C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/generate.stamp"
+>>>>>>> 166c78090e16eed5eaae58f7356da99b431fc525
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -114,11 +134,19 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
+<<<<<<< HEAD
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ASUS/Desktop/ProyectoMoviles/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Desktop/ProyectoMoviles/windows -BC:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64 --check-stamp-file C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/generate.stamp
+=======
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows/runner/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows" "-BC:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64" --check-stamp-file "C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/generate.stamp"
+>>>>>>> 166c78090e16eed5eaae58f7356da99b431fc525
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -127,21 +155,35 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+<<<<<<< HEAD
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+=======
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+>>>>>>> 166c78090e16eed5eaae58f7356da99b431fc525
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ProjectReference Include="C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\ZERO_CHECK.vcxproj">
       <Project>{8590B750-9E3E-30A6-9BFA-B1EF089D70B5}</Project>
+=======
+    <ProjectReference Include="C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\ZERO_CHECK.vcxproj">
+      <Project>{47BFE9D2-3E05-367E-B620-7EDD8E131581}</Project>
+>>>>>>> 166c78090e16eed5eaae58f7356da99b431fc525
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+<<<<<<< HEAD
     <ProjectReference Include="C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\runner\proyecto_moviles.vcxproj">
       <Project>{50583937-67DC-3B61-9B40-30562547AC5E}</Project>
+=======
+    <ProjectReference Include="C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\runner\proyecto_moviles.vcxproj">
+      <Project>{722290B4-E70B-39A7-8455-34907141BCA4}</Project>
+>>>>>>> 166c78090e16eed5eaae58f7356da99b431fc525
       <Name>proyecto_moviles</Name>
     </ProjectReference>
   </ItemGroup>

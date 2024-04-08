@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 ^C:\USERS\ASUS\DESKTOP\PROYECTOMOVILES\BUILD\WINDOWS\X64\CMAKEFILES\DC63CEEDC6A598D168704F9562F72F67\GENERATE.STAMP.RULE
 setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Desktop/ProyectoMoviles/windows -BC:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/proyecto_moviles.sln
+=======
+^C:\USERS\YESICA HERRERA\DESKTOP\PROYECTOMOVILES\BUILD\WINDOWS\X64\CMAKEFILES\B9613C47AAA43C79381F0E449D464FFB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows" "-BC:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64/proyecto_moviles.sln"
+>>>>>>> 166c78090e16eed5eaae58f7356da99b431fc525
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

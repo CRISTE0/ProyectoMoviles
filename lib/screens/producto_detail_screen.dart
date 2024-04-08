@@ -1,8 +1,5 @@
-import 'package:proyecto_moviles/models/pedido_model.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:proyecto_moviles/database/BDHelper.dart';
-import 'package:proyecto_moviles/screens/producto_list_screen.dart';
 import 'package:proyecto_moviles/models/pedido_model.dart';
 import 'package:proyecto_moviles/database/pedido_provider.dart';
 
@@ -25,6 +22,8 @@ class _PedidoDetailScreenState extends State<PedidoDetailScreen> {
       TextEditingController();
   final TextEditingController _nombreEstadoController = TextEditingController();
 
+  String _selectedEstado = "";
+
   @override
   void initState() {
     super.initState();
@@ -36,6 +35,9 @@ class _PedidoDetailScreenState extends State<PedidoDetailScreen> {
     _totalController.text = widget.pedido.total.toString();
     _nombreclienteController.text = widget.pedido.nombreCliente;
     _nombreEstadoController.text = widget.pedido.nombreEstado;
+
+    // Establece el estado inicial del DropdownButton
+    _selectedEstado = widget.pedido.nombreEstado;
   }
 
   @override
@@ -98,9 +100,12 @@ class _PedidoDetailScreenState extends State<PedidoDetailScreen> {
                   return Text('No se encontraron estados de pedido');
                 } else {
                   return DropdownButton<String>(
-                    value: widget.pedido.nombreEstado, // Valor inicial
+                    value: _selectedEstado,
                     onChanged: (String? newValue) {
-                      // Aquí puedes manejar la lógica cuando se selecciona un estado
+                      // Actualiza el estado seleccionado y reconstruye el widget
+                      setState(() {
+                        _selectedEstado = newValue!;
+                      });
                     },
                     items: snapshot.data!.map((estado) {
                       return DropdownMenuItem<String>(
@@ -112,73 +117,20 @@ class _PedidoDetailScreenState extends State<PedidoDetailScreen> {
                 }
               },
             ),
-
             SizedBox(height: 16),
-            // ElevatedButton(
-            //     onPressed: () {
-            //       _savedpedido(context);
-            //     },
-            //     child: Text("Guardar")),
-            // if (widget.pedido.Idpedido != null)
-            //   ElevatedButton(
-            //     onPressed: () {
-            //       _deletepedido(context, widget.pedido.Idpedido!);
-            //     },
-            //     style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
-            //     child: Text("Eliminar"),
-            //   ),
+            ElevatedButton(
+              onPressed: () async {
+                widget.pedido.nombreEstado = _selectedEstado;
+                await pedidosProvider.updateEstadoPedido(widget.pedido);
+                setState(() {
+                  _nombreEstadoController.text = widget.pedido.nombreEstado;
+                });
+              },
+              child: Text('Guardar'),
+            ),
           ],
         ),
       ),
     );
   }
-
-  // void _savedpedido(BuildContext context) async {
-  //   final pedidoProvider = Provider.of<pedidoProvider>(context, listen: false);
-
-  //   if (_fechaController.text.isNotEmpty &&
-  //       _subtotalController.text.isNotEmpty &&
-  //       _descuentoController.text.isNotEmpty) {
-  //     pedido updatepedido = pedido(
-  //       Idpedido: widget.pedido.Idpedido,
-  //       Nombre: _fechaController.text,
-  //       Precio: int.parse(_subtotalController.text),
-  //       Cantidad: int.parse(_descuentoController.text),
-  //     );
-
-  //     if (widget.pedido.Idpedido == null) {
-  //       await DBHelper.insertpedido(updatepedido);
-  //     } else {
-  //       await DBHelper.updatepedido(updatepedido);
-  //     }
-  //     await Navigator.pushReplacement(
-  //       context,
-  //       MaterialPageRoute(
-  //         builder: (context) => pedidoListScreen(),
-  //       ),
-  //     );
-  //     await pedidoProvider.fetchpedidos();
-  //   }
-  // }
-
-  // Future<void> _insertpedido(pedido pedido) async {
-  //   await DBHelper.insertpedido(pedido);
-  // }
-
-  // Future<void> _updatepedido(pedido pedido) async {
-  //   await DBHelper.updatepedido(pedido);
-  // }
-
-  // Future<void> _deletepedido(BuildContext context, int pedidoId) async {
-  //   await DBHelper.deletepedido(pedidoId);
-
-  //   await Navigator.pushReplacement(
-  //     context,
-  //     MaterialPageRoute(
-  //       builder: (context) => pedidoListScreen(),
-  //     ),
-  //   );
-
-  //   await Provider.of<pedidoProvider>(context, listen: false).fetchpedidos();
-  // }
 }

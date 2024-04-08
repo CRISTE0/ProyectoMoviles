@@ -1,7 +1,6 @@
 import 'package:proyecto_moviles/models/pedido_model.dart';
 import 'package:proyecto_moviles/database/BDHelper.dart';
 import 'package:flutter/material.dart';
-import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
 class PedidoProvider extends ChangeNotifier {
   List<Pedido> _pedidos = [];
@@ -54,5 +53,18 @@ class PedidoProvider extends ChangeNotifier {
     return estadoMaps
         .map((estadoMap) => estadoMap['nombre_estado'] as String)
         .toList();
+  }
+
+  Future<void> updateEstadoPedido(Pedido pedido) async {
+    final db = await DBHelper.database;
+    await db.update(
+      'pedidos',
+      {
+        'id_estado_pedido': pedido.idEstadoPedido,
+      },
+      where: 'id_pedido = ?',
+      whereArgs: [pedido.id],
+    );
+    await fetchPedidos(); // Actualizar la lista de pedidos después de la actualización
   }
 }
