@@ -15,7 +15,11 @@ void main() {
     ChangeNotifierProvider(
       create: (context) => PedidoProvider(),
       child: MaterialApp(
+<<<<<<< HEAD
         home: PedidosListScreen(),
+=======
+        home: LoginPage(),
+>>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       ),
     ),
   );

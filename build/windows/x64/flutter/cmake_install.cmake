@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: C:/Users/Cristian/Desktop/ProyectoMoviles/windows/flutter
+=======
+# Install script for directory: C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter
+>>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: C:/Users/Cristian/Desktop/ProyectoMoviles/windows/runner
+=======
+# Install script for directory: C:/Users/ASUS/Desktop/ProyectoMoviles/windows/runner
+>>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

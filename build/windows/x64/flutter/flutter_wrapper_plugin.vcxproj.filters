@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="C:\Users\Cristian\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -8,10 +9,20 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\Cristian\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc">
+=======
+    <ClCompile Include="C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc">
+>>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <CustomBuild Include="C:\Users\Cristian\Desktop\ProyectoMoviles\windows\flutter\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -20,6 +31,16 @@
     </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{6DEA393C-F7A7-35D2-88BB-9681FCD24E1C}</UniqueIdentifier>
+=======
+    <CustomBuild Include="C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C5910620-F96A-367B-8AC7-505AFAE299C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{23AEA52B-F25A-3881-8689-DC9B526A6E84}</UniqueIdentifier>
+>>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="C:\Users\Cristian\Desktop\ProyectoMoviles\windows\runner\flutter_window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -14,20 +15,46 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\Cristian\Desktop\ProyectoMoviles\windows\flutter\generated_plugin_registrant.cc">
+=======
+    <ClCompile Include="C:\Users\ASUS\Desktop\ProyectoMoviles\windows\runner\flutter_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\ProyectoMoviles\windows\runner\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\ProyectoMoviles\windows\runner\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\ProyectoMoviles\windows\runner\win32_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\ProyectoMoviles\windows\flutter\generated_plugin_registrant.cc">
+>>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <CustomBuild Include="C:\Users\Cristian\Desktop\ProyectoMoviles\windows\runner\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="C:\Users\Cristian\Desktop\ProyectoMoviles\windows\runner\Runner.rc">
+=======
+    <CustomBuild Include="C:\Users\ASUS\Desktop\ProyectoMoviles\windows\runner\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\ASUS\Desktop\ProyectoMoviles\windows\runner\Runner.rc">
+>>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
+<<<<<<< HEAD
       <UniqueIdentifier>{6DEA393C-F7A7-35D2-88BB-9681FCD24E1C}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{23AEA52B-F25A-3881-8689-DC9B526A6E84}</UniqueIdentifier>
+>>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
     </Filter>
   </ItemGroup>
 </Project>

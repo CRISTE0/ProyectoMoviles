@@ -1,3 +1,8 @@
 # CMake generation dependency list for this directory.
+<<<<<<< HEAD
 C:/Users/Cristian/Desktop/ProyectoMoviles/windows/flutter/CMakeLists.txt
 C:/Users/Cristian/Desktop/ProyectoMoviles/windows/flutter/ephemeral/generated_config.cmake
+=======
+C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/CMakeLists.txt
+C:/Users/ASUS/Desktop/ProyectoMoviles/windows/flutter/ephemeral/generated_config.cmake
+>>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
