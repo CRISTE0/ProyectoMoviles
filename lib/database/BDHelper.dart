@@ -35,6 +35,13 @@ class DBHelper {
           nombre_estado TEXT
           );
 
+          CREATE TABLE usuarios (
+          id_usuario INTEGER PRIMARY KEY AUTOINCREMENT,
+          nombre TEXT,
+          email TEXT,
+          contrasena TEXT
+          );
+
          CREATE TABLE pedidos(
           id_pedido INTEGER PRIMARY KEY AUTOINCREMENT,
           fecha TEXT, 
