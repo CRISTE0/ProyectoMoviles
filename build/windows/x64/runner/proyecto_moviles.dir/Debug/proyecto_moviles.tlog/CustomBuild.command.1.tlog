@@ -1,6 +1,6 @@
-^C:\USERS\YESICA HERRERA\DESKTOP\PROYECTOMOVILES\WINDOWS\RUNNER\CMAKELISTS.TXT
+^C:\USERS\JOHAN\DESKTOP\PROYECTOMOVILES\WINDOWS\RUNNER\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows" "-BC:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64" --check-stamp-file "C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/JOHAN/Desktop/ProyectoMoviles/windows -BC:/Users/JOHAN/Desktop/ProyectoMoviles/build/windows/x64 --check-stamp-file C:/Users/JOHAN/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

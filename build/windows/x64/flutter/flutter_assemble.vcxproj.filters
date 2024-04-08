@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\CMakeFiles\bdb609ea213a552f7015b27eb853afb5\flutter_windows.dll.rule">
+    <CustomBuild Include="C:\Users\JOHAN\Desktop\ProyectoMoviles\build\windows\x64\CMakeFiles\facbe345b352219a8ecfce23b751f34e\flutter_windows.dll.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\CMakeFiles\d75467d63386098d442eab80deb3c1b1\flutter_assemble.rule">
+    <CustomBuild Include="C:\Users\JOHAN\Desktop\ProyectoMoviles\build\windows\x64\CMakeFiles\e3b6061071cbc005d154aa682c936e0f\flutter_assemble.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\windows\flutter\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\JOHAN\Desktop\ProyectoMoviles\windows\flutter\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\flutter\CMakeFiles\flutter_assemble" />
+    <None Include="C:\Users\JOHAN\Desktop\ProyectoMoviles\build\windows\x64\flutter\CMakeFiles\flutter_assemble" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{C8FE5188-DA24-3AFF-9D97-E330C3B9815D}</UniqueIdentifier>
+      <UniqueIdentifier>{A3D3ECE7-A0B2-3225-A13E-66F8AC71205C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
