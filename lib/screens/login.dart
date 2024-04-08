@@ -3,6 +3,7 @@ import 'package:proyecto_moviles/models/usuario_model.dart';
 import 'package:proyecto_moviles/screens/register.dart';
 import 'package:proyecto_moviles/database/BDHelper.dart';
 import 'package:proyecto_moviles/screens/pedido_list_screen.dart';
+import 'package:proyecto_moviles/screens/catalogo_page.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -115,16 +116,25 @@ class _LoginPageState extends State<LoginPage> {
                       Usuario? usuario =
                           await DBHelper.getUsuario(_logNombre, _logContrasena);
                       if (usuario != null) {
-                        // Login exitoso
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) =>
-                                PedidosListScreen(), // Aquí cambiamos a PedidosListScreen
-                          ),
-                        );
+                        // Verificar si el usuario es admin (ignorar mayúsculas y minúsculas)
+                        if (_logNombre.toLowerCase() == 'admin') {
+                          // Redirigir a PedidosListScreen si es admin
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => PedidosListScreen(),
+                            ),
+                          );
+                        } else {
+                          // Redirigir a CatalogoPage si no es admin
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => CatalogoPage(),
+                            ),
+                          );
+                        }
                       } else {
-                        // Credenciales inválidas
                         ScaffoldMessenger.of(context).showSnackBar(
                           SnackBar(
                             content: Text('Usuario o contraseña incorrectos'),
