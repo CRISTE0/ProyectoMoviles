@@ -5,8 +5,8 @@ class Pedido {
   double subtotal; // Campo de subtotal
   double descuento; // Campo de descuento
   double iva; // Campo de IVA
-  String nombreCliente;
-  String nombreEstado;
+  String? nombreCliente;
+  String? nombreEstado;
   int idCliente;
   int idEstadoPedido;
 
@@ -17,8 +17,8 @@ class Pedido {
     required this.subtotal,
     required this.descuento,
     required this.iva,
-    required this.nombreCliente,
-    required this.nombreEstado,
+    this.nombreCliente,
+    this.nombreEstado,
     required this.idCliente,
     required this.idEstadoPedido,
   });

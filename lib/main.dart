@@ -15,7 +15,7 @@ void main() {
     ChangeNotifierProvider(
       create: (context) => PedidoProvider(),
       child: MaterialApp(
-        home: CatalogoPage(),
+        home: PedidosListScreen(),
       ),
     ),
   );

@@ -1,7 +1,11 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:proyecto_moviles/database/BDHelper.dart';
 import 'package:proyecto_moviles/models/pedido_model.dart';
 import 'package:proyecto_moviles/database/pedido_provider.dart';
+import 'package:proyecto_moviles/screens/pedido_list_screen.dart';
 
 class PedidoDetailScreen extends StatefulWidget {
   final Pedido pedido;
@@ -21,8 +25,11 @@ class _PedidoDetailScreenState extends State<PedidoDetailScreen> {
   final TextEditingController _nombreclienteController =
       TextEditingController();
   final TextEditingController _nombreEstadoController = TextEditingController();
+  final TextEditingController _idEstadoController = TextEditingController();
 
   String _selectedEstado = "";
+  int idEstadoEnviar = 0;
+  bool showButton = false;
 
   @override
   void initState() {
@@ -33,11 +40,13 @@ class _PedidoDetailScreenState extends State<PedidoDetailScreen> {
     _descuentoController.text = widget.pedido.descuento.toString();
     _ivaController.text = widget.pedido.iva.toString();
     _totalController.text = widget.pedido.total.toString();
-    _nombreclienteController.text = widget.pedido.nombreCliente;
-    _nombreEstadoController.text = widget.pedido.nombreEstado;
+    _nombreclienteController.text = widget.pedido.nombreCliente.toString();
+    _nombreEstadoController.text = widget.pedido.nombreEstado.toString();
 
+    _idEstadoController.text = widget.pedido.idEstadoPedido.toString();
     // Establece el estado inicial del DropdownButton
-    _selectedEstado = widget.pedido.nombreEstado;
+    _selectedEstado = widget.pedido.nombreEstado.toString();
+    idEstadoEnviar = int.parse(_idEstadoController.text);
   }
 
   @override
@@ -105,6 +114,18 @@ class _PedidoDetailScreenState extends State<PedidoDetailScreen> {
                       // Actualiza el estado seleccionado y reconstruye el widget
                       setState(() {
                         _selectedEstado = newValue!;
+                        if (_selectedEstado == "Aceptado") {
+                          idEstadoEnviar = 1;
+                          showButton = true;
+                          print(idEstadoEnviar);
+                        } else if (_selectedEstado == "Pendiente") {
+                          idEstadoEnviar = 2;
+                          showButton = true;
+                        } else {
+                          idEstadoEnviar = 3;
+                          showButton = true;
+                        }
+                        print(_selectedEstado);
                       });
                     },
                     items: snapshot.data!.map((estado) {
@@ -118,19 +139,43 @@ class _PedidoDetailScreenState extends State<PedidoDetailScreen> {
               },
             ),
             SizedBox(height: 16),
-            ElevatedButton(
-              onPressed: () async {
-                widget.pedido.nombreEstado = _selectedEstado;
-                await pedidosProvider.updateEstadoPedido(widget.pedido);
-                setState(() {
-                  _nombreEstadoController.text = widget.pedido.nombreEstado;
-                });
-              },
-              child: Text('Guardar'),
-            ),
+            if (showButton)
+              ElevatedButton(
+                onPressed: () async {
+                  _updatePedido(context);
+                },
+                child: Text('Guardar'),
+              ),
           ],
         ),
       ),
     );
+  }
+
+  void _updatePedido(BuildContext context) async {
+    final pedidoProvider = Provider.of<PedidoProvider>(context, listen: false);
+
+    Pedido updateProducto = Pedido(
+        id: widget.pedido.id,
+        fecha: _fechaController.text,
+        subtotal: double.parse(_subtotalController.text),
+        descuento: double.parse(_descuentoController.text),
+        iva: double.parse(_ivaController.text),
+        total: double.parse(_totalController.text),
+        // nombreCliente: _nombreclienteController.text,
+        // nombreEstado: _nombreEstadoController.text,
+        idCliente: widget.pedido.idCliente,
+        idEstadoPedido: idEstadoEnviar);
+
+    if (widget.pedido.id != null) {
+      await DBHelper.updateProducto(updateProducto);
+    }
+    await Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(
+        builder: (context) => PedidosListScreen(),
+      ),
+    );
+    await pedidoProvider.fetchPedidos();
   }
 }

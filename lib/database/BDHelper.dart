@@ -1,3 +1,5 @@
+import 'package:proyecto_moviles/database/pedido_provider.dart';
+import 'package:proyecto_moviles/models/pedido_model.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 import 'package:proyecto_moviles/models/usuario_model.dart';
@@ -26,10 +28,8 @@ class DBHelper {
           contrasena TEXT
           );
 
-<<<<<<< HEAD
           INSERT INTO usuarios (nombre, contrasena) VALUES ('usuario1', 'contrasena1');
           INSERT INTO usuarios (nombre, contrasena) VALUES ('usuario2', 'contrasena2');
-=======
           CREATE TABLE estado_pedido (
           id_estado_pedido INTEGER PRIMARY KEY,
           nombre_estado TEXT
@@ -60,12 +60,11 @@ class DBHelper {
           INSERT INTO clientes (nombre,telefono) VALUES ('Alfonso Caramelo',3046665413);
           INSERT INTO estado_pedido (nombre_estado) VALUES ('Aceptado');
           INSERT INTO estado_pedido (nombre_estado) VALUES ('Pendiente');
-          INSERT INTO estado_pedido (nombre_estado) VALUES ('Anulao');
+          INSERT INTO estado_pedido (nombre_estado) VALUES ('Anulado');
 
           INSERT INTO pedidos (fecha, total, subtotal, descuento, IVA, id_cliente, id_estado_pedido) 
           VALUES ('2024-04-10', 100.0, 72.9, 10.0, 19.0, 1, 2); 
 
->>>>>>> a5a80aeb697483fdeca49774c9adb18ba28be6e1
           ''');
       },
     );
@@ -91,5 +90,17 @@ class DBHelper {
   static Future<void> insertUsuario(Usuario usuario) async {
     final db = await database;
     await db.insert('usuarios', usuario.toMap());
+  }
+
+  static Future<void> updateProducto(Pedido pedidos) async {
+    final db = await database;
+
+    await db.update(
+      'pedidos',
+      pedidos.toMap(),
+      where: 'id_pedido=?',
+      whereArgs: [pedidos.id],
+    );
+    PedidoProvider().fetchPedidos();
   }
 }

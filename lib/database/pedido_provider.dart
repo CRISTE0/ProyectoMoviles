@@ -55,16 +55,16 @@ class PedidoProvider extends ChangeNotifier {
         .toList();
   }
 
-  Future<void> updateEstadoPedido(Pedido pedido) async {
-    final db = await DBHelper.database;
-    await db.update(
-      'pedidos',
-      {
-        'id_estado_pedido': pedido.idEstadoPedido,
-      },
-      where: 'id_pedido = ?',
-      whereArgs: [pedido.id],
-    );
-    await fetchPedidos(); // Actualizar la lista de pedidos después de la actualización
-  }
+  // Future<void> updateEstadoPedido(Pedido pedido) async {
+  //   final db = await DBHelper.database;
+  //   await db.update(
+  //     'pedidos',
+  //     {
+  //       'id_estado_pedido': pedido.idEstadoPedido,
+  //     },
+  //     where: 'id_pedido = ?',
+  //     whereArgs: [pedido.id],
+  //   );
+  //   await fetchPedidos(); // Actualizar la lista de pedidos después de la actualización
+  // }
 }
