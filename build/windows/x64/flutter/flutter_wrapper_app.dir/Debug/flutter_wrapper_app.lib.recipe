@@ -2,17 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-<<<<<<< HEAD
-      <FullPath>C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\x64\Debug\ZERO_CHECK</FullPath>
-    </ProjectOutput>
-    <ProjectOutput>
-      <FullPath>C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\flutter\x64\Debug\flutter_assemble</FullPath>
-=======
       <FullPath>C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>C:\Users\Yesica Herrera\Desktop\ProyectoMoviles\build\windows\x64\flutter\x64\Debug\flutter_assemble</FullPath>
->>>>>>> 166c78090e16eed5eaae58f7356da99b431fc525
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

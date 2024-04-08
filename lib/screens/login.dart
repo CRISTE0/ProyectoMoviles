@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:proyecto_moviles/models/usuario_model.dart';
 import 'package:proyecto_moviles/screens/register.dart';
+import 'package:proyecto_moviles/database/BDHelper.dart';
+import 'package:proyecto_moviles/screens/producto_list_screen.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -10,15 +12,15 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
-  String _LogNombre = "";
-  String _LogContrasena = "";
+  String _logNombre = "";
+  String _logContrasena = "";
   final _formKey = GlobalKey<FormState>();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Login'),
+        title: const Text('Login'),
       ),
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
@@ -27,21 +29,21 @@ class _LoginPageState extends State<LoginPage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                SizedBox(height: 50.0),
-                Text(
+                const SizedBox(height: 50.0),
+                const Text(
                   'Login',
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       color: Colors.black,
                       fontSize: 40.0),
                 ),
-                SizedBox(height: 10.0),
+                const SizedBox(height: 10.0),
                 Form(
                   key: _formKey,
                   child: Column(
                     children: <Widget>[
                       Container(
-                        padding: EdgeInsets.symmetric(horizontal: 20.0),
+                        padding: const EdgeInsets.symmetric(horizontal: 20.0),
                         child: TextFormField(
                           decoration: InputDecoration(
                             enabledBorder: OutlineInputBorder(
@@ -54,7 +56,7 @@ class _LoginPageState extends State<LoginPage> {
                                   BorderRadius.all(Radius.circular(30.0)),
                               borderSide: BorderSide(color: Colors.blue),
                             ),
-                            prefixIcon: Icon(Icons.person),
+                            prefixIcon: const Icon(Icons.person),
                             hintText: 'Nombre',
                             fillColor: Colors.grey[200],
                             filled: true,
@@ -66,13 +68,13 @@ class _LoginPageState extends State<LoginPage> {
                             return null;
                           },
                           onSaved: (value) {
-                            _LogNombre = value!;
+                            _logNombre = value!;
                           },
                         ),
                       ),
-                      SizedBox(height: 10.0),
+                      const SizedBox(height: 10.0),
                       Container(
-                        padding: EdgeInsets.symmetric(horizontal: 20.0),
+                        padding: const EdgeInsets.symmetric(horizontal: 20.0),
                         child: TextFormField(
                           obscureText: true,
                           decoration: InputDecoration(
@@ -86,7 +88,7 @@ class _LoginPageState extends State<LoginPage> {
                                   BorderRadius.all(Radius.circular(30.0)),
                               borderSide: BorderSide(color: Colors.blue),
                             ),
-                            prefixIcon: Icon(Icons.lock),
+                            prefixIcon: const Icon(Icons.lock),
                             hintText: 'Contraseña',
                             fillColor: Colors.grey[200],
                             filled: true,
@@ -97,29 +99,42 @@ class _LoginPageState extends State<LoginPage> {
                             }
                             return null;
                           },
-                          // onSaved: (value) {
-                          //   _LogContrasena = value!;
-                          // },
+                          onSaved: (value) {
+                            _logContrasena = value!;
+                          },
                         ),
                       ),
                     ],
                   ),
                 ),
-                SizedBox(height: 20.0),
+                const SizedBox(height: 20.0),
                 ElevatedButton(
-                  onPressed: () {
+                  onPressed: () async {
                     if (_formKey.currentState!.validate()) {
                       _formKey.currentState!.save();
-                      // Lógica para el inicio de sesión aquí
+                      Usuario? usuario =
+                          await DBHelper.getUsuario(_logNombre, _logContrasena);
+                      if (usuario != null) {
+                        // Login exitoso
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                PedidosListScreen(), // Aquí cambiamos a PedidosListScreen
+                          ),
+                        );
+                      } else {
+                        // Credenciales inválidas
+                      }
                     }
                   },
-                  child: Text('Login'),
+                  child: const Text('Login'),
                 ),
-                SizedBox(height: 10.0),
+                const SizedBox(height: 10.0),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text('No tienes cuenta? '),
+                    const Text('No tienes cuenta? '),
                     TextButton(
                       onPressed: () {
                         Navigator.push(
@@ -132,7 +147,7 @@ class _LoginPageState extends State<LoginPage> {
                           ),
                         );
                       },
-                      child: Text('Registro'),
+                      child: const Text('Registro'),
                     ),
                   ],
                 ),
