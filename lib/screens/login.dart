@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:proyecto_moviles/models/usuario_model.dart';
 import 'package:proyecto_moviles/screens/register.dart';
 
 class LoginPage extends StatefulWidget {
@@ -96,9 +97,9 @@ class _LoginPageState extends State<LoginPage> {
                             }
                             return null;
                           },
-                          onSaved: (value) {
-                            _LogContrasena = value!;
-                          },
+                          // onSaved: (value) {
+                          //   _LogContrasena = value!;
+                          // },
                         ),
                       ),
                     ],
@@ -121,8 +122,15 @@ class _LoginPageState extends State<LoginPage> {
                     Text('No tienes cuenta? '),
                     TextButton(
                       onPressed: () {
-                        Navigator.push(context,
-                            MaterialPageRoute(builder: (_) => Registrate()));
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Registrate(
+                              usuario: Usuario(
+                                  nombre: '', email: '', contrasena: ''),
+                            ),
+                          ),
+                        );
                       },
                       child: Text('Registro'),
                     ),

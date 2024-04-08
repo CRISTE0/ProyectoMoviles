@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 ^C:\USERS\ASUS\DESKTOP\PROYECTOMOVILES\WINDOWS\RUNNER\CMAKELISTS.TXT
 setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Desktop/ProyectoMoviles/windows -BC:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64 --check-stamp-file C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/generate.stamp
-=======
-^C:\USERS\YESICA HERRERA\DESKTOP\PROYECTOMOVILES\WINDOWS\RUNNER\CMAKELISTS.TXT
-setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Yesica Herrera/Desktop/ProyectoMoviles/windows" "-BC:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64" --check-stamp-file "C:/Users/Yesica Herrera/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/generate.stamp"
->>>>>>> 1300649472ef4ce524e4637047aa84346a8a621a
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

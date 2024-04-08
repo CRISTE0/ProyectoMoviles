@@ -1,3 +1,5 @@
+import 'package:proyecto_moviles/database/usuario_provider.dart';
+import 'package:proyecto_moviles/models/usuario_model.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
@@ -89,4 +91,10 @@ class DBHelper {
   //   );
   //   ProductoProvider().fetchProductos();
   // }
+
+  static Future<void> insertUsuario(Usuario usuario) async {
+    final db = await database;
+    await db.insert('usuarios', usuario.toMap());
+    UsuarioProvider().fetchUsuario();
+  }
 }

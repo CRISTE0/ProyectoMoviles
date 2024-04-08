@@ -1,19 +1,35 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:proyecto_moviles/database/BDHelper.dart';
+import 'package:proyecto_moviles/database/usuario_provider.dart';
+import 'package:proyecto_moviles/models/usuario_model.dart';
 import 'package:proyecto_moviles/screens/login.dart';
+import 'package:sqlite3/sqlite3.dart';
 
 class Registrate extends StatefulWidget {
-  const Registrate({Key? key}) : super(key: key);
+  final Usuario usuario;
+
+  const Registrate({required this.usuario});
 
   @override
   _RegistrateState createState() => _RegistrateState();
 }
 
 class _RegistrateState extends State<Registrate> {
-  String _LogNombre = "";
-  String _LogEmail = "";
-  String _LogContrasena = "";
-  String _LogConfirmacionContrasena = "";
+  final TextEditingController _nombreController =
+      TextEditingController(); // Cambio aquí
+  final TextEditingController _emailController = TextEditingController();
+  final TextEditingController _contrasenaController = TextEditingController();
   final _formKey = GlobalKey<FormState>();
+
+  @override
+  void initState() {
+    super.initState();
+
+    _nombreController.text = widget.usuario.nombre;
+    _emailController.text = widget.usuario.email;
+    _contrasenaController.text = widget.usuario.contrasena;
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -36,8 +52,10 @@ class _RegistrateState extends State<Registrate> {
                       color: Colors.black,
                       fontSize: 40.0),
                 ),
-
                 //Comienzo del formulario
+                SizedBox(
+                  height: 20.0,
+                ),
                 Form(
                   key: _formKey,
                   child: Column(
@@ -61,14 +79,12 @@ class _RegistrateState extends State<Registrate> {
                             fillColor: Colors.grey[200],
                             filled: true,
                           ),
+                          controller: _nombreController,
                           validator: (value) {
                             if (value!.isEmpty) {
                               return 'Por favor ingrese su nombre';
                             }
                             return null;
-                          },
-                          onSaved: (value) {
-                            _LogNombre = value!;
                           },
                         ),
                       ),
@@ -92,14 +108,12 @@ class _RegistrateState extends State<Registrate> {
                             fillColor: Colors.grey[200],
                             filled: true,
                           ),
+                          controller: _emailController,
                           validator: (value) {
                             if (value!.isEmpty) {
                               return 'Por favor ingrese su correo';
                             }
                             return null;
-                          },
-                          onSaved: (value) {
-                            _LogEmail = value!;
                           },
                         ),
                       ),
@@ -107,7 +121,6 @@ class _RegistrateState extends State<Registrate> {
                       Container(
                         padding: EdgeInsets.symmetric(horizontal: 20.0),
                         child: TextFormField(
-                          obscureText: true,
                           decoration: InputDecoration(
                             enabledBorder: OutlineInputBorder(
                               borderRadius:
@@ -124,46 +137,13 @@ class _RegistrateState extends State<Registrate> {
                             fillColor: Colors.grey[200],
                             filled: true,
                           ),
+                          controller: _contrasenaController,
+                          obscureText: true,
                           validator: (value) {
                             if (value!.isEmpty) {
                               return 'Por favor ingrese su contraseña';
                             }
                             return null;
-                          },
-                          onSaved: (value) {
-                            _LogContrasena = value!;
-                          },
-                        ),
-                      ),
-                      SizedBox(height: 10.0),
-                      Container(
-                        padding: EdgeInsets.symmetric(horizontal: 20.0),
-                        child: TextFormField(
-                          obscureText: true,
-                          decoration: InputDecoration(
-                            enabledBorder: OutlineInputBorder(
-                              borderRadius:
-                                  BorderRadius.all(Radius.circular(30.0)),
-                              borderSide: BorderSide(color: Colors.transparent),
-                            ),
-                            focusedBorder: OutlineInputBorder(
-                              borderRadius:
-                                  BorderRadius.all(Radius.circular(30.0)),
-                              borderSide: BorderSide(color: Colors.blue),
-                            ),
-                            prefixIcon: Icon(Icons.lock),
-                            hintText: 'Confirmación de Contraseña',
-                            fillColor: Colors.grey[200],
-                            filled: true,
-                          ),
-                          validator: (value) {
-                            if (value!.isEmpty) {
-                              return 'Por favor ingrese su confirmación de contraseña';
-                            }
-                            return null;
-                          },
-                          onSaved: (value) {
-                            _LogConfirmacionContrasena = value!;
                           },
                         ),
                       ),
@@ -171,32 +151,36 @@ class _RegistrateState extends State<Registrate> {
                   ),
                 ),
 
-                SizedBox(height: 20.0),
+                SizedBox(height: 10.0),
                 ElevatedButton(
                   onPressed: () {
                     if (_formKey.currentState!.validate()) {
-                      _formKey.currentState!.save();
-                      // Lógica para el registro aquí
-                    }
+                      // _formKey.currentState!.save();
+                      _guardarUsuario(context);
+                    } else {}
                   },
                   child: Text('Regístrate'),
                 ),
-
                 SizedBox(height: 10.0),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text('¿Ya tienes una cuenta? '),
-                    TextButton(
-                      onPressed: () {
-                        Navigator.pushReplacement(
-                          context,
-                          MaterialPageRoute(builder: (context) => LoginPage()),
-                        );
-                      },
-                      child: Text('Iniciar sesión'),
-                    ),
-                  ],
+                Padding(
+                  padding: EdgeInsets.all(20),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text('¿Ya tienes una cuenta? '),
+                      TextButton(
+                        onPressed: () {
+                          Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => LoginPage(),
+                            ),
+                          );
+                        },
+                        child: Text('Iniciar sesión'),
+                      ),
+                    ],
+                  ),
                 ),
               ],
             ),
@@ -204,5 +188,27 @@ class _RegistrateState extends State<Registrate> {
         ),
       ),
     );
+  }
+
+  void _guardarUsuario(BuildContext context) async {
+    if (_nombreController.text.isNotEmpty &&
+        _emailController.text.isNotEmpty &&
+        _contrasenaController.text.isNotEmpty) {
+      Usuario oUsuario = Usuario(
+        nombre: _nombreController.text,
+        email: _emailController.text,
+        contrasena: _contrasenaController.text,
+      );
+
+      if (widget.usuario.nombre != null) {
+        await DBHelper.insertUsuario(oUsuario);
+      }
+      await Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (context) => LoginPage(),
+        ),
+      );
+    }
   }
 }
