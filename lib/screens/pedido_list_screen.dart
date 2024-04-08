@@ -1,7 +1,7 @@
 // import 'package:crud_productos/screens/producto_detail_screen.dart';
 import 'package:proyecto_moviles/models/pedido_model.dart';
 import 'package:proyecto_moviles/database/pedido_provider.dart';
-import 'package:proyecto_moviles/screens/producto_detail_screen.dart';
+import 'package:proyecto_moviles/screens/pedido_detail_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

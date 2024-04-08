@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:proyecto_moviles/models/usuario_model.dart';
 import 'package:proyecto_moviles/screens/register.dart';
 import 'package:proyecto_moviles/database/BDHelper.dart';
-import 'package:proyecto_moviles/screens/producto_list_screen.dart';
+import 'package:proyecto_moviles/screens/pedido_list_screen.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);

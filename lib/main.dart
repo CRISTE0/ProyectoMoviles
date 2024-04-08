@@ -1,4 +1,4 @@
-import 'package:proyecto_moviles/screens/producto_list_screen.dart';
+import 'package:proyecto_moviles/screens/pedido_list_screen.dart';
 import 'package:proyecto_moviles/database/pedido_provider.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
