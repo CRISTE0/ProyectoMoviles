@@ -125,6 +125,11 @@ class _LoginPageState extends State<LoginPage> {
                         );
                       } else {
                         // Credenciales inválidas
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(
+                            content: Text('Usuario o contraseña incorrectos'),
+                          ),
+                        );
                       }
                     }
                   },
