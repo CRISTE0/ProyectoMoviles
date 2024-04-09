@@ -3,471 +3,283 @@
   "packages": [
     {
       "name": "args",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/args-2.4.2",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/args-2.4.2",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "async",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/async-2.11.0",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/async-2.11.0",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "boolean_selector",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/boolean_selector-2.1.1",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/boolean_selector-2.1.1",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "characters",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/characters-1.3.0",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/characters-1.3.0",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "clock",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/clock-1.1.1",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/clock-1.1.1",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "collection",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/collection-1.18.0",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/collection-1.18.0",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "cupertino_icons",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/cupertino_icons-1.0.6",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/cupertino_icons-1.0.6",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "dev_build",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/dev_build-0.16.4+3",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/dev_build-0.16.4+3",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "fake_async",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/fake_async-1.3.1",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/fake_async-1.3.1",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "ffi",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/ffi-2.1.0",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/ffi-2.1.0",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "flutter",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/Downloads/flutter/packages/flutter",
-=======
       "rootUri": "file:///C:/src/flutter/packages/flutter",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "flutter_lints",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-2.0.3",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-2.0.3",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "flutter_test",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/Downloads/flutter/packages/flutter_test",
-=======
       "rootUri": "file:///C:/src/flutter/packages/flutter_test",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "http",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/http-1.2.1",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/http-1.2.1",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
     {
       "name": "http_parser",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/http_parser-4.0.2",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/http_parser-4.0.2",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "js",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.6.7",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.6.7",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "leak_tracker",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker-10.0.0",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker-10.0.0",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
       "name": "leak_tracker_flutter_testing",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker_flutter_testing-2.0.1",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker_flutter_testing-2.0.1",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
       "name": "leak_tracker_testing",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker_testing-2.0.1",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker_testing-2.0.1",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
       "name": "lints",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/lints-2.1.1",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/lints-2.1.1",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "matcher",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/matcher-0.12.16+1",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/matcher-0.12.16+1",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "material_color_utilities",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/material_color_utilities-0.8.0",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/material_color_utilities-0.8.0",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "meta",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.11.0",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.11.0",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "nested",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/nested-1.0.0",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/nested-1.0.0",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "path",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/path-1.9.0",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/path-1.9.0",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "pool",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/pool-1.5.1",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/pool-1.5.1",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "process_run",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/process_run-0.14.2",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/process_run-0.14.2",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "provider",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/provider-6.1.2",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/provider-6.1.2",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "pub_semver",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/pub_semver-2.1.4",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/pub_semver-2.1.4",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "sky_engine",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/Downloads/flutter/bin/cache/pkg/sky_engine",
-=======
       "rootUri": "file:///C:/src/flutter/bin/cache/pkg/sky_engine",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "source_span",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/source_span-1.10.0",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/source_span-1.10.0",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "sqflite",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/sqflite-2.3.2",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/sqflite-2.3.2",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "sqflite_common",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/sqflite_common-2.5.3",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/sqflite_common-2.5.3",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "sqflite_common_ffi",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/sqflite_common_ffi-2.3.2+1",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/sqflite_common_ffi-2.3.2+1",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "sqflite_common_ffi_web",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/sqflite_common_ffi_web-0.4.2+3",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/sqflite_common_ffi_web-0.4.2+3",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "sqlite3",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/sqlite3-2.4.0",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/sqlite3-2.4.0",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "stack_trace",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/stack_trace-1.11.1",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/stack_trace-1.11.1",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "stream_channel",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/stream_channel-2.1.2",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/stream_channel-2.1.2",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "string_scanner",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/string_scanner-1.2.0",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/string_scanner-1.2.0",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "synchronized",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/synchronized-3.1.0+1",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/synchronized-3.1.0+1",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "term_glyph",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/term_glyph-1.2.1",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/term_glyph-1.2.1",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "test_api",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.6.1",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.6.1",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "typed_data",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/typed_data-1.3.2",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/typed_data-1.3.2",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "vector_math",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/vector_math-2.1.4",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/vector_math-2.1.4",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "vm_service",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/vm_service-13.0.0",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/vm_service-13.0.0",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "web",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/web-0.5.1",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/web-0.5.1",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
     {
       "name": "yaml",
-<<<<<<< HEAD
-      "rootUri": "file:///C:/Users/Cristian/AppData/Local/Pub/Cache/hosted/pub.dev/yaml-3.1.2",
-=======
       "rootUri": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache/hosted/pub.dev/yaml-3.1.2",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
@@ -478,11 +290,7 @@
       "languageVersion": "3.2"
     }
   ],
-<<<<<<< HEAD
-  "generated": "2024-04-08T19:11:35.080566Z",
-=======
-  "generated": "2024-04-08T18:17:51.119615Z",
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
+  "generated": "2024-04-09T17:33:04.201906Z",
   "generator": "pub",
   "generatorVersion": "3.3.3"
 }

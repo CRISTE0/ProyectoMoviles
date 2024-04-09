@@ -1,7 +1,2 @@
-<<<<<<< HEAD
-PlatformToolSet=v142:VCToolArchitecture=Native64Bit:VCToolsVersion=14.29.30133:TargetPlatformVersion=10.0.19041.0:
-Debug|x64|C:\Users\Cristian\Desktop\ProyectoMoviles\build\windows\x64\runner\|
-=======
 PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.39.33519:TargetPlatformVersion=10.0.22621.0:
 Debug|x64|C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\runner\|
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5

@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -18,13 +21,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-<<<<<<< HEAD
-    <ProjectGuid>{69F7E189-E008-3B1C-B0B6-70C785C1F3C0}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
-=======
     <ProjectGuid>{942F2CC5-D906-310E-8267-EB01E3895FE6}</ProjectGuid>
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
     <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -33,17 +32,17 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -89,19 +88,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <CustomBuild Include="C:\Users\Cristian\Desktop\ProyectoMoviles\windows\runner\CMakeLists.txt">
-      <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Cristian/Desktop/ProyectoMoviles/windows/runner/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Cristian/Desktop/ProyectoMoviles/windows -BC:/Users/Cristian/Desktop/ProyectoMoviles/build/windows/x64 --check-stamp-file C:/Users/Cristian/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/generate.stamp
-=======
     <CustomBuild Include="C:\Users\ASUS\Desktop\ProyectoMoviles\windows\runner\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ASUS/Desktop/ProyectoMoviles/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Desktop/ProyectoMoviles/windows -BC:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64 --check-stamp-file C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/generate.stamp
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -110,19 +101,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-<<<<<<< HEAD
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Cristian\Desktop\ProyectoMoviles\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/Cristian/Desktop/ProyectoMoviles/windows/runner/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Cristian/Desktop/ProyectoMoviles/windows -BC:/Users/Cristian/Desktop/ProyectoMoviles/build/windows/x64 --check-stamp-file C:/Users/Cristian/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/generate.stamp
-=======
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/ASUS/Desktop/ProyectoMoviles/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Desktop/ProyectoMoviles/windows -BC:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64 --check-stamp-file C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/generate.stamp
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -131,19 +114,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
-<<<<<<< HEAD
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\Cristian\Desktop\ProyectoMoviles\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Cristian/Desktop/ProyectoMoviles/windows/runner/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Cristian/Desktop/ProyectoMoviles/windows -BC:/Users/Cristian/Desktop/ProyectoMoviles/build/windows/x64 --check-stamp-file C:/Users/Cristian/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/generate.stamp
-=======
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ASUS/Desktop/ProyectoMoviles/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Desktop/ProyectoMoviles/windows -BC:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64 --check-stamp-file C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/runner/CMakeFiles/generate.stamp
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -152,35 +127,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-<<<<<<< HEAD
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Cristian\Desktop\ProyectoMoviles\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
-=======
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <ProjectReference Include="C:\Users\Cristian\Desktop\ProyectoMoviles\build\windows\x64\ZERO_CHECK.vcxproj">
-      <Project>{72054AD0-14D7-322E-A031-A6F81D9255B2}</Project>
-=======
     <ProjectReference Include="C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\ZERO_CHECK.vcxproj">
       <Project>{8590B750-9E3E-30A6-9BFA-B1EF089D70B5}</Project>
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-<<<<<<< HEAD
-    <ProjectReference Include="C:\Users\Cristian\Desktop\ProyectoMoviles\build\windows\x64\runner\proyecto_moviles.vcxproj">
-      <Project>{97266DF4-116B-3D1B-81D3-5D713901532B}</Project>
-=======
     <ProjectReference Include="C:\Users\ASUS\Desktop\ProyectoMoviles\build\windows\x64\runner\proyecto_moviles.vcxproj">
       <Project>{50583937-67DC-3B61-9B40-30562547AC5E}</Project>
->>>>>>> 6957e129b7b762df690eb057bd027af0ca8d05c5
       <Name>proyecto_moviles</Name>
     </ProjectReference>
   </ItemGroup>

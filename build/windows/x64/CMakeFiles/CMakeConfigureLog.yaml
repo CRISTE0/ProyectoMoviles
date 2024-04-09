@@ -24,7 +24,7 @@ events:
       The output was:
       0
       Versión de MSBuild 17.9.5+33de0b227 para .NET Framework
-      Compilación iniciada a las 08/04/2024 13:18:07.
+      Compilación iniciada a las 09/04/2024 12:34:24.
       
       Proyecto "C:\\Users\\ASUS\\Desktop\\ProyectoMoviles\\build\\windows\\x64\\CMakeFiles\\3.28.0-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Advertencia(s)
           0 Errores
       
-      Tiempo transcurrido 00:00:01.59
+      Tiempo transcurrido 00:00:01.70
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -72,8 +72,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-v4cgzg"
-      binary: "C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-v4cgzg"
+      source: "C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-0qm49f"
+      binary: "C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-0qm49f"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -82,40 +82,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-v4cgzg'
+        Change Dir: 'C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-0qm49f'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c78d0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4d1d3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versión de MSBuild 17.9.5+33de0b227 para .NET Framework
-        Compilación iniciada a las 08/04/2024 13:18:09.
+        Compilación iniciada a las 09/04/2024 12:34:27.
         
-        Proyecto "C:\\Users\\ASUS\\Desktop\\ProyectoMoviles\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-v4cgzg\\cmTC_c78d0.vcxproj" en nodo 1 (destinos predeterminados).
+        Proyecto "C:\\Users\\ASUS\\Desktop\\ProyectoMoviles\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-0qm49f\\cmTC_4d1d3.vcxproj" en nodo 1 (destinos predeterminados).
         PrepareForBuild:
-          Creando directorio "cmTC_c78d0.dir\\Debug\\".
+          Creando directorio "cmTC_4d1d3.dir\\Debug\\".
           La salida estructurada está habilitada. El formato del diagnóstico del compilador reflejará la jerarquía de errores. Consulte https://aka.ms/cpp/structured-output para obtener más detalles.
-          Creando directorio "C:\\Users\\ASUS\\Desktop\\ProyectoMoviles\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-v4cgzg\\Debug\\".
-          Creando directorio "cmTC_c78d0.dir\\Debug\\cmTC_c78d0.tlog\\".
+          Creando directorio "C:\\Users\\ASUS\\Desktop\\ProyectoMoviles\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-0qm49f\\Debug\\".
+          Creando directorio "cmTC_4d1d3.dir\\Debug\\cmTC_4d1d3.tlog\\".
         InitializeBuildStatus:
-          Se creará "cmTC_c78d0.dir\\Debug\\cmTC_c78d0.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
-          Aplicando tarea Touch a "cmTC_c78d0.dir\\Debug\\cmTC_c78d0.tlog\\unsuccessfulbuild".
+          Se creará "cmTC_4d1d3.dir\\Debug\\cmTC_4d1d3.tlog\\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_4d1d3.dir\\Debug\\cmTC_4d1d3.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c78d0.dir\\Debug\\\\" /Fd"cmTC_c78d0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4d1d3.dir\\Debug\\\\" /Fd"cmTC_4d1d3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           Compilador de optimización de C/C++ de Microsoft (R) versión 19.39.33522 para x64
           (C) Microsoft Corporation. Todos los derechos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c78d0.dir\\Debug\\\\" /Fd"cmTC_c78d0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4d1d3.dir\\Debug\\\\" /Fd"cmTC_4d1d3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ASUS\\Desktop\\ProyectoMoviles\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-v4cgzg\\Debug\\cmTC_c78d0.exe" /INCREMENTAL /ILK:"cmTC_c78d0.dir\\Debug\\cmTC_c78d0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-v4cgzg/Debug/cmTC_c78d0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-v4cgzg/Debug/cmTC_c78d0.lib" /MACHINE:X64  /machine:x64 cmTC_c78d0.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_c78d0.vcxproj -> C:\\Users\\ASUS\\Desktop\\ProyectoMoviles\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-v4cgzg\\Debug\\cmTC_c78d0.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ASUS\\Desktop\\ProyectoMoviles\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-0qm49f\\Debug\\cmTC_4d1d3.exe" /INCREMENTAL /ILK:"cmTC_4d1d3.dir\\Debug\\cmTC_4d1d3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-0qm49f/Debug/cmTC_4d1d3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ASUS/Desktop/ProyectoMoviles/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-0qm49f/Debug/cmTC_4d1d3.lib" /MACHINE:X64  /machine:x64 cmTC_4d1d3.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_4d1d3.vcxproj -> C:\\Users\\ASUS\\Desktop\\ProyectoMoviles\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-0qm49f\\Debug\\cmTC_4d1d3.exe
         FinalizeBuildStatus:
-          Se eliminará el archivo "cmTC_c78d0.dir\\Debug\\cmTC_c78d0.tlog\\unsuccessfulbuild".
-          Aplicando tarea Touch a "cmTC_c78d0.dir\\Debug\\cmTC_c78d0.tlog\\cmTC_c78d0.lastbuildstate".
-        Compilación del proyecto terminada "C:\\Users\\ASUS\\Desktop\\ProyectoMoviles\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-v4cgzg\\cmTC_c78d0.vcxproj" (destinos predeterminados).
+          Se eliminará el archivo "cmTC_4d1d3.dir\\Debug\\cmTC_4d1d3.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_4d1d3.dir\\Debug\\cmTC_4d1d3.tlog\\cmTC_4d1d3.lastbuildstate".
+        Compilación del proyecto terminada "C:\\Users\\ASUS\\Desktop\\ProyectoMoviles\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-0qm49f\\cmTC_4d1d3.vcxproj" (destinos predeterminados).
         
         Compilación correcta.
             0 Advertencia(s)
             0 Errores
         
-        Tiempo transcurrido 00:00:01.11
+        Tiempo transcurrido 00:00:01.28
         
       exitCode: 0
 ...
